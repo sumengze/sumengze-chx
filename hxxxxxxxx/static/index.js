@@ -124,7 +124,7 @@ function gameRestart() {
     _gameScore = 0;
     _gameOver = false;
     _gameStart = false;
-    _gameTimeNum = 20;
+    _gameTimeNum = 25;
     GameTimeLayer.innerHTML = creatTimeText(_gameTimeNum);
     countBlockSize();
     refreshGameLayer(GameLayer[0]);
@@ -343,11 +343,13 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return '出去不要说你是二十中人.....';
-    if (score <= 99) return '普通高中生';
-    if (score <= 149) return '二十中人上人';
-    if (score <= 199) return '您';
-    return '人？';
+    if (score <= 49) return '出去可以不要说你是二十中人吗.....';
+    if (score <= 99) return '普通の高中生';
+    if (score <= 149) return '二十中の婆罗门';
+    if (score <= 169) return '很厉害呢，不知道你对音游感不感兴趣呢？比如cytus2 osu 屁股肉什么的....（夹带私货√';
+    if (score <= 189) return '您';
+    if (score <= 229) return 'あなたは神様だ！！！！！';
+    return '呐，你真的是人吗？呐？';
 }
 
 function toStr(obj) {
@@ -439,4 +441,4 @@ function click(index) {
     gameTapEvent(fakeEvent)
 }
 
-console.log("不修改，好嘛？乱传又有什么用呢？(ˉ▽ˉ；)...")
+console.log("")
