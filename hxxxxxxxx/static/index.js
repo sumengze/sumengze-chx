@@ -343,12 +343,15 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return '出去可以不要说你是二十中人吗.....';
-    if (score <= 99) return '普通の高中生';
-    if (score <= 149) return '二十中の婆罗门';
-    if (score <= 169) return '很厉害呢，不知道你对音游感不感兴趣呢？比如cytus2 osu 屁股肉什么的....（夹带私货√';
-    if (score <= 189) return '您';
-    if (score <= 229) return 'あなたは神様だ！！！！！';
+    if (score <= 39) return '出去可以不要说你是二十中人吗.....';
+    if (score <= 89) return '普通の高中生';
+    if (score <= 129) return '二十中の婆罗门';
+    if (score <= 139) return '很厉害呢，不知道你对音游感不感兴趣呢？比如cytus2 osu 屁股肉什么的....（夹带私货√';
+    if (score <= 149) return '神一般的手速，二十中饭堂就缺你这种手抖的，考虑一下应聘？';
+    if (score <= 159) return '好快...是凤凰花开给了你power吗？';
+    if (score <= 169) return '再努努力，你将获得一个王の称号';
+    if (score <= 179) return '---您---';
+    if (score <= 200) return 'あなたは神様だ！！！！！';
     return '呐，你真的是人吗？呐？';
 }
 
