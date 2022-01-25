@@ -350,7 +350,10 @@ function shareText(score) {
     if (score <= 149) return '神一般的手速，二十中饭堂就缺你这种手抖的，考虑一下应聘？';
     if (score <= 159) return '好快...是凤凰花开给了你power吗？';
     if (score <= 169) return '再努努力，你将获得一个王の称号';
-    if (score <= 179) return '---您---';
+    if (score <= 175) return '---您---';
+    if (score <= 185) return '即将成神！放弃二十中学生的身份去拯救世界吧！（ps：如果成为魔法少女的话那最好了';
+    if (score <= 190) return '实在很好奇你是怎么做到的，要不录个屏发朋友圈炫耀一下？';
+    if (score <= 195) return '这个分数..我怀疑是轩哥本人在玩...对吧？校长？';
     if (score <= 200) return 'あなたは神様だ！！！！！';
     return '呐，你真的是人吗？呐？';
 }
